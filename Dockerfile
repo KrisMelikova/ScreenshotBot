@@ -11,3 +11,5 @@ COPY . .
 EXPOSE 5000
 
 ENTRYPOINT ["python3", "bot.py"]
+# Use it for testing
+# ENTRYPOINT ["python3", "-m", "unittest"]

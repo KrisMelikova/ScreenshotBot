@@ -75,4 +75,4 @@ if __name__ == "__main__":
     BOT.message_handler(commands=['start'])(hello)
     BOT.message_handler(content_types=['text'])(make_screenshot_and_receive_code)
 
-    BOT.polling()
+    BOT.infinity_polling()

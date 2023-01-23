@@ -12,3 +12,7 @@ docker run -v "$(pwd)/screenshots":/app/screenshots <tag>
 ### HOW TO TEST
 ```bash
 python3 -m unittest
+
+or
+
+uncomment 'ENTRYPOINT ["python3", "-m", "unittest"]' in Dockerfile for testing with Docker
